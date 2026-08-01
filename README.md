@@ -59,10 +59,10 @@ We'll do a network scan of our target machine to find open ports. We see that po
 
 <img width="851" height="582" alt="Kali_nmap_RDP" src="https://github.com/user-attachments/assets/15dfd49c-60c4-4d43-8b32-2117df87bddf" />
 
-*metasploit in Linux*
 Let's run msfvenom in Kali Linux to create our malware executable. We'll configure the executable to connect to our attackbox.
 
-*metasploit handler in Linux*
+<img width="886" height="266" alt="MalwareExecutableCreation" src="https://github.com/user-attachments/assets/2ce88d67-c46a-4236-8adc-c70e9fb1d5f1" />
+
 Launch metasploit and run the handler to set our payload and run our handler to listen in on our exploit.
 
 *python3 server*
