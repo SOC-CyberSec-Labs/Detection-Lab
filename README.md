@@ -68,6 +68,13 @@ Launch metasploit and run the handler to set our payload then run our handler to
 <div>
   <img width="573" height="33" alt="msfconsole_startup_command" src="https://github.com/user-attachments/assets/71293191-5c71-43b9-9d08-84c1be90a30f" />
 </div>
+<i>msfvenom console start command</i>
+
+<img width="463" height="50" alt="metasploit_handler_command" src="https://github.com/user-attachments/assets/5315d6ed-e532-49f0-8caa-c8fc30dbb917" />
+<i>select our exploit handler with the use command</i>
+
+
+
 
 
 
@@ -78,6 +85,7 @@ We can server the malware on our local network easily with a simple python 3 ser
 ## Executing Malware
 *downloading file on Target machine*
 Now, we can simply visit the server on our target machine and download the malware executable.
+
 
 *Running the malware*
 Then, we can run it.
