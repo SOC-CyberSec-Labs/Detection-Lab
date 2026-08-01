@@ -43,12 +43,19 @@ To reduce the risk of compromising our home network when testing malware, we wan
   <i>Static IP configuration for Kali Linux attack machine</i>
 </div>
 
-
-
 *configuring static IP and Subnet of VMs*
 Next, we can configure our IP and Subnet to static. The IP address can be whatever you prefer, as long as they are in the same subnet.
 
 ## Setting up Malware
+To run our exploit on the target machine, we have to disable real-time protection.
+<div>
+  <img width="593" height="342" alt="Windows10DisableRTProtection" src="https://github.com/user-attachments/assets/8a424115-f057-4d4e-acf6-94569049a2fb" />
+</div>
+Then we enable Remote Desktop Protocol on the target machine.
+<div>
+  <img width="804" height="636" alt="Windows10EnableRDP" src="https://github.com/user-attachments/assets/8f64d7dd-725c-470c-ae27-bd233c676240" />
+</div>
+
 *nmap in Kali Linux*
 We'll do a network scan of our target machine to find open ports. We see that port 3389 for Remote Desktop Services (RDP) is open.
 
