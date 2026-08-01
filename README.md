@@ -38,7 +38,9 @@ To reduce the risk of compromising our home network when testing malware, we wan
 
 <div>
   <img width="1126" height="637" alt="Windows10StaticIP" src="https://github.com/user-attachments/assets/02584660-ffa6-487c-a7a6-1b0de3857b6c" />
+  <i>Static IP configuration for Windows 10 target machine</i>
   <img width="1322" height="554" alt="KaliLinuxStaticIP" src="https://github.com/user-attachments/assets/9b36b3ef-1e62-4cfe-872f-6b1ffcb8d0fb" />
+  <i>Static IP configuration for Kali Linux attack machine</i>
 </div>
 
 
