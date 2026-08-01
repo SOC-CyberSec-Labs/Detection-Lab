@@ -85,6 +85,12 @@ Launch metasploit and run the handler to set our payload then run our handler to
 </div>
 <i>Next, we can set the listening host of our exploit to the attack machine.</i>
 
+<div>
+  <img width="598" height="56" alt="msf_handler_enable_exploit" src="https://github.com/user-attachments/assets/33d6c113-d8bf-497c-b10a-dc6814f441fd" />
+</div>
+<i>With our handler configured, we can run the exploit command to start listening in for traffic from our executed malware on the target machine.</i>
+
+
 
 
 
