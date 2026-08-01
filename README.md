@@ -70,7 +70,9 @@ Launch metasploit and run the handler to set our payload then run our handler to
 </div>
 <i>msfvenom console start command</i>
 
-<img width="463" height="50" alt="metasploit_handler_command" src="https://github.com/user-attachments/assets/5315d6ed-e532-49f0-8caa-c8fc30dbb917" />
+<div>
+  <img width="463" height="50" alt="metasploit_handler_command" src="https://github.com/user-attachments/assets/5315d6ed-e532-49f0-8caa-c8fc30dbb917" />
+</div>
 <i>select our exploit handler with the use command</i>
 
 
