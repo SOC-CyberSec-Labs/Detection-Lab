@@ -38,7 +38,7 @@ To reduce the risk of compromising our home network when testing malware, we wan
 
 <div>
   <img width="1126" height="637" alt="Windows10StaticIP" src="https://github.com/user-attachments/assets/02584660-ffa6-487c-a7a6-1b0de3857b6c" />
-  <img width="978" height="511" alt="Windows10StaticIPConfirm" src="https://github.com/user-attachments/assets/924dfeb5-8cd0-4611-9170-c1c44ac28bbd" />
+  <img width="1322" height="554" alt="KaliLinuxStaticIP" src="https://github.com/user-attachments/assets/9b36b3ef-1e62-4cfe-872f-6b1ffcb8d0fb" />
 </div>
 
 
