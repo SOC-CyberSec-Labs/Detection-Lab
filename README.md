@@ -37,7 +37,9 @@ VirtualBox will be used for the virtual machines in our lab. We'll need Windows 
 We can make a snapshot of our machine before installing any software or executing any malware in a sandbox environment to revert changes, if necessary.
 
 ## Configuring Virtual Machines
-*Image of VBox Network Setting*
+<div><img width="781" height="518" alt="VBoxNetworkSettings" src="https://github.com/user-attachments/assets/5e2578d5-8d1e-4a79-8884-6db0ee64273d" /></div>
+<i>VBox Network Setting for Internal Network</i>
+
 To reduce the risk of compromising our home network when testing malware, we want to change our network settings in VirtualBox for the relevant VMs from NAT to Internal Network. This will keep the VMs off the internet and in their own private VLAN.
 
 *configuring static IP and Subnet of VMs*
