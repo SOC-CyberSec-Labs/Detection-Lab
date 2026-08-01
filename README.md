@@ -43,8 +43,7 @@ To reduce the risk of compromising our home network when testing malware, we wan
   <i>Static IP configuration for Kali Linux attack machine</i>
 </div>
 
-*configuring static IP and Subnet of VMs*
-Next, we can configure our IP and Subnet to static. The IP address can be whatever you prefer, as long as they are in the same subnet.
+Next, we can configure our IP to static. The IP address can be whatever you prefer, as long as they are in the same subnet.
 
 ## Setting up Malware
 To run our exploit on the target machine, we have to disable real-time protection.
