@@ -32,7 +32,8 @@ Example below.
 VirtualBox will be used for the virtual machines in our lab. We'll need Windows 10 installed as a virtual machine in VirtualBox and Kali Linux as well. We'll also want to install Splunk and Sysmon on our Windows 10 machine.
 
 <div><img width="329" height="100" alt="VBoxSnapshotW10" src="https://github.com/user-attachments/assets/ac15936b-90ca-45db-82fb-6c4ac41af3a6" /></div>
-*Snapshot example in Virtualbox*
+*Window 10 Virtual Machine in VirtualBox with a snapshot after Splunk installation*
+
 We can make a snapshot of our machine before installing any software or executing any malware in a sandbox environment to revert changes, if necessary.
 
 ## Configuring Virtual Machines
