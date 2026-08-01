@@ -73,8 +73,12 @@ Launch metasploit and run the handler to set our payload then run our handler to
 <div>
   <img width="463" height="50" alt="metasploit_handler_command" src="https://github.com/user-attachments/assets/5315d6ed-e532-49f0-8caa-c8fc30dbb917" />
 </div>
-<i>select our exploit handler with the use command</i>
+<i>Select our exploit handler with the use command</i>
 
+<div>
+  <img width="696" height="32" alt="msf_handler_setPayload" src="https://github.com/user-attachments/assets/41621293-625f-4cd8-8229-d955384c2d70" />
+</div>
+<i>Set the payload of our malware to reverse TCP</i>
 
 
 
