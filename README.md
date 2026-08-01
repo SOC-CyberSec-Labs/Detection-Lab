@@ -56,7 +56,9 @@ Then we enable Remote Desktop Protocol on the target machine.
   <img width="804" height="636" alt="Windows10EnableRDP" src="https://github.com/user-attachments/assets/8f64d7dd-725c-470c-ae27-bd233c676240" />
 </div>
 
-*nmap in Kali Linux*
+<img width="851" height="582" alt="Kali_nmap_RDP" src="https://github.com/user-attachments/assets/15dfd49c-60c4-4d43-8b32-2117df87bddf" />
+
+
 We'll do a network scan of our target machine to find open ports. We see that port 3389 for Remote Desktop Services (RDP) is open.
 
 *metasploit in Linux*
