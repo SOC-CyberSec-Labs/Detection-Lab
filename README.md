@@ -90,13 +90,12 @@ Launch metasploit and run the handler to set our payload then run our handler to
 </div>
 <i>With our handler configured, we can run the exploit command to start listening in for traffic from our executed malware on the target machine.</i>
 
+## Delivering Malware
+We can serve the malware on our local network easily with a simple python 3 server.
+<div>
+  <img width="665" height="135" alt="python3server_malware" src="https://github.com/user-attachments/assets/fc68d21f-21e0-431c-83cf-83a8c4380e3f" />
+</div>
 
-
-
-
-
-*python3 server*
-We can server the malware on our local network easily with a simple python 3 server.
 
 ## Executing Malware
 *downloading file on Target machine*
