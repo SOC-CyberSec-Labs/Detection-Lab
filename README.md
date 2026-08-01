@@ -83,7 +83,7 @@ Launch metasploit and run the handler to set our payload then run our handler to
 <div>
   <img width="787" height="291" alt="msf_handler_set_lhost_options" src="https://github.com/user-attachments/assets/b4e6513d-ebde-4a22-809a-eab7d0e5b33f" />
 </div>
-<i>Next, we can set the listening host of our exploit to the target machine.</i>
+<i>Next, we can set the listening host of our exploit to the attack machine.</i>
 
 
 
