@@ -21,9 +21,6 @@ The Detection Lab project aimed to establish a controlled environment for simula
 ## Network Diagram
 
 Before configuring our virtual machines, we want to create a network diagram of our lab network.
-<div>
-<img width="547" height="766" alt="ActiveDirectory drawio" src="https://github.com/user-attachments/assets/ebd83e15-99c2-442e-b389-2ba1ceb91793" />
-</div>
 
 ## Getting Started
 VirtualBox will be used for the virtual machines in our lab. We'll need Windows 10 installed as a virtual machine in VirtualBox and Kali Linux as well. We'll also want to install Splunk and Sysmon on our Windows 10 machine.
