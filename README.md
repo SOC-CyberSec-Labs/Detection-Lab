@@ -63,7 +63,14 @@ Let's run msfvenom in Kali Linux to create our malware executable. We'll configu
 
 <img width="886" height="266" alt="MalwareExecutableCreation" src="https://github.com/user-attachments/assets/2ce88d67-c46a-4236-8adc-c70e9fb1d5f1" />
 
-Launch metasploit and run the handler to set our payload and run our handler to listen in on our exploit.
+Launch metasploit and run the handler to set our payload then run our handler to listen in on our exploit.
+
+<div>
+  <img width="573" height="33" alt="msfconsole_startup_command" src="https://github.com/user-attachments/assets/71293191-5c71-43b9-9d08-84c1be90a30f" />
+</div>
+
+
+
 
 *python3 server*
 We can server the malware on our local network easily with a simple python 3 server.
