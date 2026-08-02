@@ -2,7 +2,7 @@
 
 ## Objective
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios.
 
 ### Skills Learned
 
@@ -14,9 +14,8 @@ The Detection Lab project aimed to establish a controlled environment for simula
 
 ### Tools Used
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Splunk SIEM system for log ingestion and analysis.
+- Metasploit for malware creation and remote access against a target system.
 
 ## Network Diagram
 
