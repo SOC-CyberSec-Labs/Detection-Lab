@@ -98,8 +98,11 @@ We can serve the malware on our local network easily with a simple python 3 serv
 
 
 ## Executing Malware
-*downloading file on Target machine*
 Now, we can simply visit the server on our target machine and download the malware executable.
+
+<div>
+  <img width="648" height="337" alt="DownloadMalwareInBrowser" src="https://github.com/user-attachments/assets/f4ee43a4-958c-4b65-81d7-c7ee3ed856ba" />
+</div>
 
 
 *Running the malware*
