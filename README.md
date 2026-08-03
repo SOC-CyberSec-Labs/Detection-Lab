@@ -16,6 +16,7 @@ The Detection Lab project aimed to establish a controlled environment for simula
 
 - Splunk SIEM system for log ingestion and analysis.
 - Metasploit for malware creation and remote access against a target system.
+- Windows Sysmon for enhanced logging capabilities on our target machine.
 
 ## Network Diagram
 
