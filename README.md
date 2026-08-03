@@ -107,6 +107,7 @@ Now, we can simply visit the server on our target machine and download the malwa
 </div>
 
 Then, we can run it.
+
 <div>
   <img width="347" height="79" alt="Windows10TargetMachineLaunchMalware" src="https://github.com/user-attachments/assets/e3a1e117-bc56-4628-833f-0f5bf4bc07c1" />
 </div>
