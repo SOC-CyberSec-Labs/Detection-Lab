@@ -48,11 +48,17 @@ To reduce the risk of compromising our home network when testing malware, we wan
 Next, we can configure our IP to static. The IP address can be whatever you prefer, as long as they are in the same subnet.
 
 ## Configuring Splunk
-Before being able to use Splunk to detect signs of exploitation on our target machine, we have to configure it for Sysmon and get the service running on our machine.
+Before being able to use Splunk to detect signs of exploitation on our target machine, we have to configure it for Sysmon.
 
 First, we want to stop the Splunk service before configuring it for Sysmon in Task Manager.
 <div>
   <img width="811" height="282" alt="SplunkDisableTaskManager" src="https://github.com/user-attachments/assets/aa98a821-b0af-4367-bbb0-a57ab81f6bd5" />
+</div>
+
+Next, we'll copy the inputs configuration file from our Splunk default folder and paste it into the local folder.
+
+<div>
+  <img width="902" height="584" alt="SplunkCopyInputsConfCompressed" src="https://github.com/user-attachments/assets/5978177c-3d32-4534-a08e-e80833d67253" />
 </div>
 
 
