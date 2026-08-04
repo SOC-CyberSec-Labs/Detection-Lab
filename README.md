@@ -139,6 +139,13 @@ Then, we can run it.
   <img width="347" height="79" alt="Windows10TargetMachineLaunchMalware" src="https://github.com/user-attachments/assets/e3a1e117-bc56-4628-833f-0f5bf4bc07c1" />
 </div>
 
+## Exploiting Malware
+With our target machine now compromised, we can use our reverse TCP shell to run commands on our target machine. We can run some commands that give us info about the target machine. The goal is to find evidence of these commands being executed on our attack machine in Splunk, to discover signs of a breach and compromise of our target machine.
+
+<div>
+  <img width="845" height="968" alt="reverseTCPshellcommands" src="https://github.com/user-attachments/assets/67368d47-a029-4be8-a41d-4681945ab0da" />
+</div>
+
 ## Examining Telemetry with Splunk
 
 *splunk index = endpoint*
