@@ -19,7 +19,6 @@ The Detection Lab project aimed to establish a controlled environment for simula
 - NMAP for port scanning to find attack vectors against a target system.
 - Metasploit for malware creation and remote access against a target system.
 
-
 ## Network Diagram
 
 Before configuring our virtual machines, we want to create a network diagram of our lab network.
@@ -51,6 +50,7 @@ Next, we can configure our IP to static. The IP address can be whatever you pref
 Before being able to use Splunk to detect signs of exploitation on our target machine, we have to configure it for Sysmon.
 
 First, we want to stop the Splunk service before configuring it for Sysmon in Task Manager.
+
 <div>
   <img width="811" height="282" alt="SplunkDisableTaskManager" src="https://github.com/user-attachments/assets/aa98a821-b0af-4367-bbb0-a57ab81f6bd5" />
 </div>
@@ -59,6 +59,18 @@ Next, we'll copy the inputs configuration file from our Splunk default folder an
 
 <div>
   <img width="902" height="584" alt="SplunkCopyInputsConfCompressed" src="https://github.com/user-attachments/assets/5978177c-3d32-4534-a08e-e80833d67253" />
+</div>
+
+Then we'll edit our inputs configuration for Windows Sysmon by adding these configurations at the end of the file.
+
+<div>
+  <img width="783" height="532" alt="WinEventLogSplunkConf" src="https://github.com/user-attachments/assets/5025ffcd-9d7b-4bf8-95dd-7539290c8e98" />
+</div>
+
+With Splunk configured for Sysmon, we can startup the service in Task Manager again.
+
+<div>
+  <img width="803" height="281" alt="StartSplunkAfterConfEdit" src="https://github.com/user-attachments/assets/46f10e70-a2ab-4d38-abcf-4cb9aaf2af6d" />
 </div>
 
 
