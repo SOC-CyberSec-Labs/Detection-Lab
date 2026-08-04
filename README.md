@@ -147,8 +147,18 @@ With our target machine now compromised, we can use our reverse TCP shell to run
 </div>
 
 ## Examining Telemetry with Splunk
+Now that we've gathered all the telemetry we wanted to be ingested in Splunk, we can go to Splunk on our target machine and view the logs.
 
-*splunk index = endpoint*
-Now that we've launched our malware, we can view the logs created in Windows with Splunk.
+First, we need to configure our search index for Splunk to point to the name we gave for our Windows Sysmon event logs. The name used was "endpoint".
+
+<div>
+  <img width="796" height="806" alt="SplunkCreateIndexEndpoint" src="https://github.com/user-attachments/assets/bf2fe301-5dc2-4b50-93b2-f63c58e2df1e" />
+</div>
+
+Now, we can search for "index=endpoint" in Splunk to see our Sysmon logs.
+
+<div>
+  <img width="826" height="258" alt="SplunkIndexEndpointNoData" src="https://github.com/user-attachments/assets/7f02c112-288d-4ef6-9a0e-164da74a6d25" />
+</div>
 
 
